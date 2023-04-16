@@ -1,0 +1,79 @@
+
+print ('Hola Mundo')
+print ('hi')
+
+print('👋 Howdy')
+
+
+#variables
+
+#Programilla para hallar los tips 
+pizza = 5 
+coca = 1.20
+total = pizza + coca
+tips = total * 0.2
+
+print (total)
+print (tips)
+
+#Para convertir los grados Fahrenheit en Celsius
+brooklyn = 21
+fahrenheit = brooklyn
+celsius = (fahrenheit - 32) / 1.8
+
+print ('Esta es la solucion celsius')
+print (celsius)
+
+print ('')
+nombre = input ('Escribe el nombre')
+print ('Hola' + nombre + '. Bienvenido')
+
+
+#El ejercicio del peso corporal
+peso = float (input('Escribe tu peso: '))
+altura = float (input('Escribe tu altura: '))
+bmi = peso / (altura * altura) 
+print ('Este es tu bmi ' + str(bmi))
+
+import math
+
+# pedir al usuario el número al que se le quiere calcular la raíz cuadrada
+num = float(input("Ingresa un número para calcular su raíz cuadrada: "))
+
+# calcular la raíz cuadrada utilizando la función sqrt() del módulo math
+raiz_cuadrada = math.sqrt(num)
+
+# mostrar la raíz cuadrada calculada
+print("La raíz cuadrada de", num, "es", raiz_cuadrada)
+
+# Hipotenusa
+a = float(input('Escribe un número A: '))
+b = float(input('Escribe un número B: '))
+c = math.sqrt((a * a) + (b * b))
+print('La hipotenusa es ' + str(c))
+
+
+#Ejercicio de USD 
+yuan = float (input('What do you left in yuan? '))
+yen = float (input('What do you left in yen? '))
+won = float (input('What do you left in won? '))
+USD = (yuan*0.15) + (yen*0.0075) + (won*0.00077)
+print ('')
+print (str (USD))
+
+#Código de cara o cruz de manera random
+import random
+
+num = random.randint(0, 1)   # RNGesus will give us a random number that is either 0 or 1
+
+if num > 0.5:
+  print('Heads')
+else:
+  print('Tails')
+
+#Código primer ejercicio if y else
+num = float(input('Pon un número '))
+if num >= 55:
+  print('Has pasado')
+else :
+  print('Has fallado')
